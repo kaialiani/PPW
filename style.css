@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* base elements */
+
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: "Jost", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* header */
+
+header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f2f2f2;
+  max-width: 85%;
+  margin: auto;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2vw;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #ff4037;
+  transition: 0.2s linear;
+}
+
+.logo {
+  max-width: 50px;
+}
+
+/* main */
+
+main {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 140px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Jost", sans-serif;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ff4037;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #333;
+  color: #f2f2f2;
+  border: none;
+  padding: 6px 18px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #FF4037;
+}
+
+.bar {
+  width: 100%;
+  height: 30px;
+  background-color: #e4e4e4;
+  margin-bottom: 20px;
+  position: relative;
+  align-content: center;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width 1s ease-in-out;
+}
+
+.percent {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.title {
+  font-family: "Jost", sans-serif;
+  color: #f2f2f2;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  vertical-align: middle;
+  padding-left: 12px;
+}
+
+.red {
+  color: #ff4037;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+#banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+}
+
+#my-id {
+  display: flex;
+  padding: 2%;
+  padding-left: 6%;
+  border-left: 1.4px solid #3333336d;
+  flex-basis: 40%;
+  align-items: center;
+  gap: 5%;
+}
+
+#my-description {
+  padding: 2%;
+  flex-basis: 60%;
+}
+
+#my-id img {
+  max-width: 14vw;
+  text-align: center;
+}
+
+#my-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.my-info img {
+  width: 15px;
+}
+
+#contact-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-button:hover {
+  background-color: #0B66C2;
+}
+#contact-section {
+  margin-top: 5vw;
+}
+
+/* portfolio section */
+
+#portfolio-container {
+  width: 100%;
+  display: flex;
+  gap: 3vw;
+}
+
+.project {
+  background-image: url(pictures/portfolio-background-bland.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 260px;
+  color: #333;
+}
+
+.project:hover {
+  background-image: url(pictures/portfolio-background.png);
+  transition: 0.08s ease-in;
+}
+
+.project1 {
+  background-image: url(pictures/hex-background-bland.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 260px;
+  color: #333;
+}
+
+.project1:hover {
+  background-image: url(pictures/hex-background.png);
+  transition: 0.08s ease-in;
+}
+
+/* timeline */
+
+#timeline-container {
+  display: flex;
+  align-items: center;
+  width: 98%;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-item {
+  display: flex;
+  position: relative;
+  justify-items: center;
+}
+
+.timeline-dot {
+  width: 28px;
+  height: 22px;
+  margin-right: 60px;
+  border-radius: 100px;
+  background-color: #333;
+}
+
+.timeline-line {
+  width: 3px;
+  height: 100%;
+  background-color: #333;
+  position: absolute;
+  left: 10px;
+  z-index: -1;
+}
+
+.timeline-content {
+  width: 100%;
+ 
+}
+
+.timeline-content1 {
+  width: 100%;
+ 
+}
+
+.timeline-content h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.timeline-content1 p {
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+
+.timeline-content p {
+  font-size: 18px;
+}
+
+#bottom-section {
+  display: flex;
+}
+
+/* footer */
+
+footer {
+  margin-bottom: 2.5vw;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* fading */
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in-active {
+  opacity: 1;
+}
+
+/* hex gallery */
+
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-container img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+#hex-container {
+  display: flex;
+  width: 70%;
+  margin: 5%;
+  gap: 4%;
+}
+
+.back {
+  font-weight: 600;
+}
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+  header {
+    justify-content: center;
+  }
+
+  #banner-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #my-id {
+    display: flex;
+    margin-top: 5%;
+    padding: 0%;
+    padding-left: 0%;
+    border-left: 0px;
+    gap: 15%;
+  }
+
+  #my-id img {
+    max-width: 28vw;
+    text-align: center;
+  }
+
+  #timeline-container {
+    gap: 8%;
+  }
+
+  .logo {
+    max-width: 35px;
+  }
+
+
+  #hex-container {
+    width: 90%;
+    flex-direction: column;
+    justify-items: center;
+    gap: 40px;
+  }
+
+  video {
+    width: 66vw;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  h1 {
+    margin-block-start: 0;
+  }
+
+  #portfolio-container {
+    width: 100%;
+    display: flex;
+    gap: 3vw;
+    overflow: scroll;
+  }
+
+  
+}
