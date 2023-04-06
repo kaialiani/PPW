@@ -266,6 +266,21 @@ button:hover {
   transition: 0.08s ease-in;
 }
 
+.project2 {
+  background-image: url(pictures/dfd-portfolio-background-bland.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 260px;
+  color: #333;
+}
+
+.project2:hover {
+  background-image: url(pictures/dfd-portfolio-background.png);
+  transition: 0.08s ease-in;
+}
+
 /* timeline */
 
 #timeline-container {
