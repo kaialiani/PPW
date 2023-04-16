@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (progress === 100) {
         bar.style.backgroundColor = "#ff4037";
-        percentEl.style.color = "#f2f2f2";
+        percentEl.style.color = "#FF4037";
       }
     }
   });
