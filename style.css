@@ -243,7 +243,7 @@ button:hover {
   gap: 3vw;
 }
 
-.project {
+.projectS1PORTFOLIO {
   background-image: url(pictures/portfolio-background-bland.png);
   display: block;
   background-repeat: no-repeat;
@@ -253,12 +253,12 @@ button:hover {
   color: #333;
 }
 
-.project:hover {
+.projectS1PORTFOLIO:hover {
   background-image: url(pictures/portfolio-background.png);
   transition: 0.08s ease-in;
 }
 
-.project1 {
+.projectHEX {
   background-image: url(pictures/hex-background-bland.png);
   display: block;
   background-repeat: no-repeat;
@@ -268,12 +268,12 @@ button:hover {
   color: #333;
 }
 
-.project1:hover {
+.projectHEX:hover {
   background-image: url(pictures/hex-background.png);
   transition: 0.08s ease-in;
 }
 
-.project2 {
+.projectDFD {
   background-image: url(pictures/dfd-portfolio-background-bland.png);
   display: block;
   background-repeat: no-repeat;
@@ -283,8 +283,23 @@ button:hover {
   color: #333;
 }
 
-.project2:hover {
+.projectDFD:hover {
   background-image: url(pictures/dfd-portfolio-background.png);
+  transition: 0.08s ease-in;
+}
+
+.projectTASKR {
+  background-image: url(pictures/taskr-background-bland.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 260px;
+  color: #333;
+}
+
+.projectTASKR:hover {
+  background-image: url(pictures/taskr-background.png);
   transition: 0.08s ease-in;
 }
 
