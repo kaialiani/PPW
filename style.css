@@ -237,14 +237,10 @@ button:hover {
 
 /* portfolio section */
 
-#projects-carousel {
-  width: 100%;
-  overflow: hidden;
-}
-
 #portfolio-container {
   display: flex;
   gap: 3vw;
+  flex-wrap: wrap;
 }
 
 .projectS1PORTFOLIO {
@@ -522,11 +518,6 @@ h5 {
     overflow: hidden;
   }
 
-  #portfolio-container {
-    display: flex;
-    gap: 3vw;
-  }
-
   .timeline-dot {
     width: 25px;
     height: 20px;
@@ -548,5 +539,13 @@ h5 {
   #banner-container {
     align-items: normal;
     gap: 2%;
+  }
+
+  .projectS1PORTFOLIO,
+  .projectHEX,
+  .projectTASKR,
+  .projectDFD {
+    width: 19rem;
+    height: 19rem;
   }
 }
