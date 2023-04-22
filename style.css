@@ -502,6 +502,10 @@ h5 {
     margin-block-start: 0;
   }
 
+  #contact-buttons {
+    flex-direction: column;
+  }
+
   #projects-carousel {
     width: 100%;
     overflow: hidden;
