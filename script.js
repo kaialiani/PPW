@@ -30,3 +30,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+var swiper = new Swiper("#projects-carousel", {
+  slidesPerView: "auto",
+  spaceBetween: 30,
+  centeredSlides: true,
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

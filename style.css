@@ -237,8 +237,12 @@ button:hover {
 
 /* portfolio section */
 
-#portfolio-container {
+#projects-carousel {
   width: 100%;
+  overflow: hidden;
+}
+
+#portfolio-container {
   display: flex;
   gap: 3vw;
 }
@@ -496,10 +500,13 @@ h5 {
     margin-block-start: 0;
   }
 
-  #portfolio-container {
+  #projects-carousel {
     width: 100%;
+    overflow: hidden;
+  }
+
+  #portfolio-container {
     display: flex;
     gap: 3vw;
-    overflow: scroll;
   }
 }
