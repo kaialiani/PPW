@@ -340,7 +340,7 @@ button:hover {
   width: 28px;
   height: 22px;
   margin-right: 60px;
-  border-radius: 100px;
+  border-radius: 150px;
   background-color: #333;
 }
 
@@ -466,8 +466,10 @@ h5 {
     margin-top: 5%;
     padding: 0%;
     padding-left: 0%;
-    border-left: 0px;
+    border-left: none;
     gap: 15%;
+    padding: 0%;
+    margin-left: 5%;
   }
 
   #my-id img {
@@ -500,6 +502,15 @@ h5 {
 
   h1 {
     margin-block-start: 0;
+    font-size: 34px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .red {
+    font-size: 34px;
   }
 
   #contact-buttons {
@@ -514,5 +525,28 @@ h5 {
   #portfolio-container {
     display: flex;
     gap: 3vw;
+  }
+
+  .timeline-dot {
+    width: 25px;
+    height: 20px;
+    margin-right: 30px;
+    margin-left: 1.2px;
+    border-radius: 150px;
+    background-color: #333;
+  }
+
+  nav {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+
+  #my-id img {
+    max-height: 14vh;
+  }
+
+  #banner-container {
+    align-items: normal;
+    gap: 2%;
   }
 }
