@@ -272,7 +272,15 @@ button:hover {
   background-image: url(pictures/hex-background.png);
   transition: 0.08s ease-in;
 }
-
+.hidden {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.preload {
+  background-image: url(pictures/dfd-portfolio-background.png);
+}
 .projectDFD {
   background-image: url(pictures/dfd-portfolio-background-bland.png);
   display: block;
@@ -431,6 +439,13 @@ h5 {
 /* media queries */
 
 @media only screen and (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
   header {
     justify-content: center;
   }
