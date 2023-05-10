@@ -311,6 +311,21 @@ button:hover {
   transition: 0.08s ease-in;
 }
 
+.projectAFTERFLOW {
+  background-image: url(pictures/afterflow-background-bland.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 260px;
+  color: #333;
+}
+
+.projectAFTERFLOW:hover {
+  background-image: url(pictures/afterflow-background.png);
+  transition: 0.08s ease-in;
+}
+
 /* timeline */
 
 #timeline-container {
