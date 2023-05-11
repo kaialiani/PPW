@@ -244,7 +244,7 @@ button:hover {
 }
 
 .projectS1PORTFOLIO {
-  background-image: url(pictures/portfolio-background-bland.png);
+  background-image: url(pictures/portfolio-background.png);
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -254,12 +254,12 @@ button:hover {
 }
 
 .projectS1PORTFOLIO:hover {
-  background-image: url(pictures/portfolio-background.png);
+  background-image: url(pictures/portfolio-background-bland.png);
   transition: 0.08s ease-in;
 }
 
 .projectHEX {
-  background-image: url(pictures/hex-background-bland.png);
+  background-image: url(pictures/hex-background.png);
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -269,7 +269,7 @@ button:hover {
 }
 
 .projectHEX:hover {
-  background-image: url(pictures/hex-background.png);
+  background-image: url(pictures/hex-background-bland.png);
   transition: 0.08s ease-in;
 }
 .hidden {
@@ -278,11 +278,9 @@ button:hover {
   height: 0;
   overflow: hidden;
 }
-.preload {
-  background-image: url(pictures/dfd-portfolio-background.png);
-}
+
 .projectDFD {
-  background-image: url(pictures/dfd-portfolio-background-bland.png);
+  background-image: url(pictures/dfd-portfolio-background.png);
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -292,12 +290,12 @@ button:hover {
 }
 
 .projectDFD:hover {
-  background-image: url(pictures/dfd-portfolio-background.png);
+  background-image: url(pictures/dfd-portfolio-background-bland.png);
   transition: 0.08s ease-in;
 }
 
 .projectTASKR {
-  background-image: url(pictures/taskr-background-bland.png);
+  background-image: url(pictures/taskr-background.png);
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -307,12 +305,12 @@ button:hover {
 }
 
 .projectTASKR:hover {
-  background-image: url(pictures/taskr-background.png);
+  background-image: url(pictures/taskr-background-bland.png);
   transition: 0.08s ease-in;
 }
 
 .projectAFTERFLOW {
-  background-image: url(pictures/afterflow-background-bland.png);
+  background-image: url(pictures/afterflow-background.png);
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -322,7 +320,7 @@ button:hover {
 }
 
 .projectAFTERFLOW:hover {
-  background-image: url(pictures/afterflow-background.png);
+  background-image: url(pictures/afterflow-background-bland.png);
   transition: 0.08s ease-in;
 }
 
