@@ -197,9 +197,10 @@ button:hover {
   display: flex;
   padding: 2%;
   padding-left: 6%;
-  border-left: 1.4px solid #3333336d;
+  border-left: 1.2px solid #3333336d;
   flex-basis: 40%;
   align-items: center;
+  justify-content: space-evenly;
   gap: 5%;
 }
 
