@@ -240,8 +240,17 @@ button:hover {
 
 #portfolio-container {
   display: flex;
-  gap: 3vw;
-  flex-wrap: wrap;
+  gap: 2.6vw;
+  flex-wrap: nowrap;
+}
+
+#portfolio-container > a {
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.projects-section {
+  overflow: auto;
 }
 
 .projectS1PORTFOLIO {
@@ -457,9 +466,17 @@ h5 {
     flex-direction: column;
     justify-content: center;
   }
+
+  #portfolio-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   body {
     background-size: cover;
     background-repeat: no-repeat;
@@ -561,5 +578,11 @@ h5 {
   .projectDFD {
     width: 19rem;
     height: 19rem;
+  }
+
+  #portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
