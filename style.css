@@ -319,8 +319,8 @@ button:hover {
   transition: 0.08s ease-in;
 }
 
-.projectAFTERFLOW {
-  background-image: url(pictures/afterflow-background.png);
+.projectEDC {
+  background-image: url(pictures/EDC-background.png);
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -329,8 +329,8 @@ button:hover {
   color: #333;
 }
 
-.projectAFTERFLOW:hover {
-  background-image: url(pictures/afterflow-background-bland.png);
+.projectEDC:hover {
+  background-image: url(pictures/EDC-background-bland.png);
   transition: 0.08s ease-in;
 }
 
@@ -575,7 +575,8 @@ h5 {
   .projectS1PORTFOLIO,
   .projectHEX,
   .projectTASKR,
-  .projectDFD {
+  .projectDFD,
+  .projectEDC {
     width: 19rem;
     height: 19rem;
   }
