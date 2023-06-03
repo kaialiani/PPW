@@ -334,6 +334,21 @@ button:hover {
   transition: 0.08s ease-in;
 }
 
+.projectFoo {
+  background-image: url(pictures/Foo-background.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 260px;
+  color: #333;
+}
+
+.projectFoo:hover {
+  background-image: url(pictures/Foo-background-bland.png);
+  transition: 0.08s ease-in;
+}
+
 /* timeline */
 
 #timeline-container {
@@ -576,7 +591,8 @@ h5 {
   .projectHEX,
   .projectTASKR,
   .projectDFD,
-  .projectEDC {
+  .projectEDC,
+  .projectFoo {
     width: 19rem;
     height: 19rem;
   }
