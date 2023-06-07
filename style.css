@@ -19,6 +19,11 @@ a {
   text-decoration: none;
 }
 
+figcaption {
+  text-align: center;
+  margin-top: 8px;
+}
+
 /* header */
 
 header {
@@ -229,7 +234,7 @@ button:hover {
   gap: 10px;
 }
 
-.contact-button:hover {
+.contact-link:hover {
   background-color: #0b66c2;
 }
 #contact-section {
@@ -249,7 +254,7 @@ button:hover {
   box-sizing: border-box;
 }
 
-.projects-section {
+#wrapper-portfolio {
   overflow: auto;
 }
 
@@ -474,6 +479,71 @@ h5 {
   font-weight: 600;
 }
 
+/* general project pages styling */
+
+#container {
+  margin-top: 5%;
+  width: 85%;
+  margin: auto;
+}
+
+.foo-flex {
+  overflow-x: auto; /* Only allow horizontal scrolling */
+  white-space: nowrap; /* Prevent images from wrapping */
+}
+
+.foo-flex img {
+  width: 16rem;
+}
+
+.foo-image-container {
+  display: flex;
+  justify-content: center; /* Align items to the left */
+  padding: 2rem;
+  gap: 4rem;
+  overflow: auto; /* Enable scrolling within the container */
+}
+
+/* programs classes styling  */
+
+.next {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+  cursor: pointer;
+}
+
+.supabase {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #36b87c;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+  cursor: pointer;
+}
+
+.figma {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #f24e1d;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+  cursor: pointer;
+}
+
+#programs-container {
+  display: flex;
+  gap: 3rem;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 768px) {
@@ -601,5 +671,13 @@ h5 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #programs-container {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .foo-image-container {
+    justify-content: flex-start;
   }
 }
