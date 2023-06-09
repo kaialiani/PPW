@@ -24,6 +24,22 @@ figcaption {
   margin-top: 8px;
 }
 
+.website-link {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+  cursor: pointer;
+}
+
+.website-link:hover {
+  text-decoration-color: #ff4037;
+}
+
 /* header */
 
 header {
@@ -477,6 +493,13 @@ h5 {
 
 .back {
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.back a {
+  display: flex;
 }
 
 /* general project pages styling */
@@ -679,5 +702,10 @@ h5 {
   }
   .foo-image-container {
     justify-content: flex-start;
+  }
+
+  #container {
+    margin-top: 3rem;
+    width: 96%;
   }
 }
