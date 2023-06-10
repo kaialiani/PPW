@@ -725,8 +725,8 @@ h5 {
   #my-info {
     flex-direction: row;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 80%;
+    width: 90%;
   }
 }
