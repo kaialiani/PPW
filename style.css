@@ -678,7 +678,7 @@ h5 {
   }
 
   #my-id img {
-    max-height: 30vh;
+    max-width: 52vw;
     text-align: center;
   }
 
@@ -728,5 +728,13 @@ h5 {
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
+  }
+  .timeline-content1 a > p,
+  .timeline-content p {
+    text-align: left;
+  }
+
+  nav ul {
+    gap: 3vw;
   }
 }
