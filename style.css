@@ -527,6 +527,17 @@ h5 {
   overflow: auto; /* Enable scrolling within the container */
 }
 
+.dfd-video-container {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  gap: 1rem;
+  align-items: center;
+}
+
+.dfd-video {
+}
+
 /* programs classes styling  */
 
 .next {
@@ -534,15 +545,33 @@ h5 {
   align-items: center;
   gap: 1rem;
   color: black;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 6px;
+
+  cursor: pointer;
+}
+
+.html {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #d65923;
+
+  cursor: pointer;
+}
+
+.css {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #1b73ba;
+
   cursor: pointer;
 }
 
 .next > p,
 .supabase > p,
-.figma > p {
+.figma > p,
+.html > p,
+.css > p {
   margin-block-start: 0.6em;
   margin-block-end: 0.6em;
 }
@@ -552,9 +581,7 @@ h5 {
   align-items: center;
   gap: 0.6rem;
   color: #36b87c;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 6px;
+
   cursor: pointer;
 }
 
@@ -563,9 +590,7 @@ h5 {
   align-items: center;
   gap: 0.6rem;
   color: #f24e1d;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 6px;
+
   cursor: pointer;
 }
 
@@ -588,6 +613,10 @@ h5 {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
+  }
+
+  .dfd-video-container {
+    flex-direction: column;
   }
 }
 
@@ -736,5 +765,21 @@ h5 {
 
   nav ul {
     gap: 3vw;
+  }
+
+  .dfd-video-container {
+    flex-direction: column;
+  }
+
+  .dfd-video {
+    width: 80vw;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .dfd-video-container {
+    flex-direction: column;
+    align-items: center;
   }
 }
