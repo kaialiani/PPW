@@ -274,6 +274,22 @@ button:hover {
   overflow: auto;
 }
 
+.hidden {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.capanna-container {
+  display: flex;
+  width: 100%;
+}
+
+.capanna-img {
+  height: 50vh;
+}
+
 .projectS1PORTFOLIO {
   background-image: url(pictures/portfolio-background.png);
   display: block;
@@ -302,12 +318,6 @@ button:hover {
 .projectHEX:hover {
   background-image: url(pictures/hex-background-bland.png);
   transition: 0.08s ease-in;
-}
-.hidden {
-  opacity: 0;
-  width: 0;
-  height: 0;
-  overflow: hidden;
 }
 
 .projectDFD {
@@ -367,6 +377,21 @@ button:hover {
 
 .projectFoo:hover {
   background-image: url(pictures/Foo-background-bland.png);
+  transition: 0.08s ease-in;
+}
+
+.project74 {
+  background-image: url(pictures/Capanna-background.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 260px;
+  color: #333;
+}
+
+.project74:hover {
+  background-image: url(pictures/Capanna-background-bland.png);
   transition: 0.08s ease-in;
 }
 
